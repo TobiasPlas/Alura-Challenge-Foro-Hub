@@ -14,7 +14,7 @@ import java.time.LocalDate;
 public class Respuesta {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String mensaje;
