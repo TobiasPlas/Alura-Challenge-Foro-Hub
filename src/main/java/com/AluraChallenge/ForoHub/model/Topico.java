@@ -1,11 +1,10 @@
 package com.AluraChallenge.ForoHub.model;
 
 import com.AluraChallenge.ForoHub.dto.TopicoDto;
-import com.AluraChallenge.ForoHub.edit.TopicoEditable;
+import com.AluraChallenge.ForoHub.dto.edit.TopicoEditable;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.time.LocalDate;
 import java.util.List;
 
 
@@ -45,9 +44,10 @@ public class Topico {
         this.fechaCreacion = topicoDto.fechaCreacion();
         this.status = topicoDto.status();
         this.curso = topicoDto.curso();
-        this.autor = topicoDto.autor();
+        this.autor=new Usuario(topicoDto.autor());
         this.respuestas = topicoDto.respuestas();
     }
+
 
     public void editarTopico(TopicoEditable topicoEditable){
         if (topicoEditable.titulo()!=null){

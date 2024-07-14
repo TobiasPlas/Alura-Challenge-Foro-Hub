@@ -1,4 +1,4 @@
-package com.AluraChallenge.ForoHub.edit;
+package com.AluraChallenge.ForoHub.dto.edit;
 
 import com.AluraChallenge.ForoHub.model.Topico;
 

@@ -1,4 +1,4 @@
-package com.AluraChallenge.ForoHub.filtroAlUsuario;
+package com.AluraChallenge.ForoHub.dto.filtroAlUsuario;
 
 import com.AluraChallenge.ForoHub.model.Usuario;
 

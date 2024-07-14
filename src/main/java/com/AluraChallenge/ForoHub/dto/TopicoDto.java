@@ -18,7 +18,7 @@ public record TopicoDto (
         String fechaCreacion,
         @NotNull(message = "El usuario no puede ser null")
         @Valid
-        Usuario autor,
+        UsuarioDto autor,
         @NotBlank(message = "El status no puede estar vacío")
         String status,
         @NotBlank(message = "El curso no puede estar vacío")

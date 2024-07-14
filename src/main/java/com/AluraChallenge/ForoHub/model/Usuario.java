@@ -1,10 +1,8 @@
 package com.AluraChallenge.ForoHub.model;
 
+import com.AluraChallenge.ForoHub.dto.UsuarioDto;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
@@ -12,6 +10,7 @@ import java.util.List;
 @Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@EqualsAndHashCode(of = "id")
 public class Usuario {
 
     @Id
@@ -31,6 +30,13 @@ public class Usuario {
     @Transient
     @OneToMany(mappedBy = "autor")
     private List<Respuesta> respuesta;
+
+
+    public Usuario(UsuarioDto usuarioDto){
+        this.mail=usuarioDto.mail();
+        this.nombre=usuarioDto.nombre();
+        this.password=usuarioDto.password();
+    }
 
 }
 
