@@ -1,4 +1,10 @@
 package com.AluraChallenge.ForoHub.dto.Autenticacion;
 
-public record AutenticacionUsuario(String usuario,String password) {
+import jakarta.validation.constraints.NotBlank;
+
+public record AutenticacionUsuario(
+        @NotBlank
+        String usuario,
+        @NotBlank
+        String password) {
 }
