@@ -1,21 +1,27 @@
 package com.AluraChallenge.ForoHub.service;
 
 import com.AluraChallenge.ForoHub.dto.TopicoDto;
+import com.AluraChallenge.ForoHub.dto.UsuarioDto;
 import com.AluraChallenge.ForoHub.dto.edit.TopicoEditable;
 import com.AluraChallenge.ForoHub.dto.filtroAlUsuario.TopicoFiltrado;
+import com.AluraChallenge.ForoHub.dto.filtroAlUsuario.UsuarioFiltrado;
 import com.AluraChallenge.ForoHub.model.Topico;
+import com.AluraChallenge.ForoHub.model.Usuario;
 import com.AluraChallenge.ForoHub.repository.TopicoRepository;
+import com.AluraChallenge.ForoHub.repository.UsuarioRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
-public class TopicoService {
+@org.springframework.stereotype.Service
+public class Service {
 
     @Autowired
     private TopicoRepository repositoryT;
+
+    @Autowired
+    private UsuarioRepository repositoryU;
 
     public TopicoFiltrado saveTopico(@Valid TopicoDto topico) {
         Topico topicoDatos = new Topico(topico);
@@ -55,5 +61,18 @@ public class TopicoService {
 
     }
 
+    public UsuarioFiltrado saveUsuario(UsuarioDto usuarioDto) {
+        Usuario user = new Usuario(usuarioDto);
+        repositoryU.save(user);
+        return new UsuarioFiltrado(user);
+    }
+
+    public List<UsuarioFiltrado> findAllUser() {
+        return repositoryU.findAll().stream().map(UsuarioFiltrado::new).toList();
+    }
+
+    public UsuarioFiltrado findUserById(Long id) {
+        return new UsuarioFiltrado(repositoryU.findById(id).orElse(null));
+    }
 }
 
