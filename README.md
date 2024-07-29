@@ -34,10 +34,12 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
 - **Descripcion:Registra un nuevo usuario**
 - **Cuerpo de la Solicitud:**
    
-   {
-   "nombre":"user",
-    "mail":"user98@gmail.com",
-    "password": "123456"
-  }
+   { "nombre":"user" , "mail":"user98@gmail.com" , "password": "123456" }
+
+  [![save-Usuario.png](https://i.postimg.cc/KcpdH2fV/save-Usuario.png)](https://postimg.cc/146C8bLc)
+
+  [![save-Usuario-POSTMAN.png](https://i.postimg.cc/wvZn351z/save-Usuario-POSTMAN.png)](https://postimg.cc/yghLbZhp)
+
+  [![Usuarios-My-SQL.png](https://i.postimg.cc/8C3ZbpNB/Usuarios-My-SQL.png)](https://postimg.cc/mcY3LGct)
  
   
