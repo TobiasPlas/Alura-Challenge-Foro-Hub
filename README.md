@@ -33,11 +33,11 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
 - **Metodo: `POST`**
 - **Descripcion:Registra un nuevo usuario**
 - **Cuerpo de la Solicitud: **
-  
+   
    {
    "nombre":"user",
     "mail":"user98@gmail.com",
     "password": "123456"
   }
-  
+ 
   
