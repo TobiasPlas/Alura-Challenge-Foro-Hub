@@ -38,5 +38,6 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
    "nombre":"user",
     "mail":"user98@gmail.com",
     "password": "123456"
-    } 
-
+  }
+  
+  
