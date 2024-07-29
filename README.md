@@ -32,7 +32,7 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
 - **URL: `/user/crear`**
 - **Metodo: `POST`**
 - **Descripcion:Registra un nuevo usuario**
-- **Cuerpo de la Solicitud: **
+- **Cuerpo de la Solicitud:**
    
    {
    "nombre":"user",
