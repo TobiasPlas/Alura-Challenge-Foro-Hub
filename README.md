@@ -9,10 +9,10 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
 - **Java 17**
 - **Spring Boot 3.3.1**
 - **Hibernate**
-- **MySQL Database 
+- **MySQL Database**
 - **Maven**
 
-## Bibliotecas Utilizadas
+### Librerias Utilizadas
 
 - **Spring data jpa**
 - **Spring Validation**
@@ -24,4 +24,18 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
 - **MySQL Driver**
 - **Lombok**
 
+
+### Endpoints
+
+#### Usuario 
+
+- **URL: "/user/crear"**
+- **Metodo: POST**
+- **Descripcion:Registra un nuevo usuario**
+- **Cuerpo de la Solicitud: **
+  {
+   "nombre":"user",
+    "mail":"user98@gmail.com",
+    "password": "123456"
+    }
 
