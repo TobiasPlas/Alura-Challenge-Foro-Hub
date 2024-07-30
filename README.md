@@ -82,16 +82,16 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
     - **Cuerpo de la Solicitud:**
 
       {
-    "titulo":"as230fgsdag",
-    "mensaje":"gjlgsdh120.ask",
-    "fechaCreacion": "12/7/2024",
-    "autor": {
-        "nombre":"TobPlas",
-        "mail":"Tobplas68@gmail.com",
-        "password": "$2y$10$Wqo.nOGe3Qcb.gW1uzuFg.NkytXnJwe5a9t.jKp.x.BE5QIF6vPcO"
-    },
-    "status": "Ok",
-    "curso": "Matematica"
+    "titulo":"as230fgsdag", 
+    "mensaje":"gjlgsdh120.ask", 
+    "fechaCreacion": "12/7/2024", 
+    "autor": { 
+        "nombre":"TobPlas", 
+        "mail":"Tobplas68@gmail.com", 
+        "password": "$2y$10$Wqo.nOGe3Qcb.gW1uzuFg.NkytXnJwe5a9t.jKp.x.BE5QIF6vPcO" 
+    }, 
+    "status": "Ok", 
+    "curso": "Matematica" 
 }
 
 
