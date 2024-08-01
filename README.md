@@ -35,9 +35,13 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
    - **Cuerpo de la Solicitud:**
    
       { "nombre":"user" , "mail":"user98@gmail.com" , "password": "123456" }
+ 
+     **Controler**
 
      [![save-Usuario.png](https://i.postimg.cc/KcpdH2fV/save-Usuario.png)](https://postimg.cc/146C8bLc)
  
+      **Service**
+
      [![Save-Usuario-Service.png](https://i.postimg.cc/RCgj7qNN/Save-Usuario-Service.png)](https://postimg.cc/5jF7145V)
 
      [![save-Usuario-POSTMAN.png](https://i.postimg.cc/wvZn351z/save-Usuario-POSTMAN.png)](https://postimg.cc/yghLbZhp)
@@ -50,7 +54,11 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
    - **Metodo: `GET`**
    - **Descripcion:** Retorna una lista en formato json de todos los usuarios registrados en la base de datos
 
+      **Controler**
+      
       [![getUsers.png](https://i.postimg.cc/4yZ8MWMW/getUsers.png)](https://postimg.cc/VrGB0Wzt)
+  
+      **Service**
   
       [![find-all-Usuario-Service.png](https://i.postimg.cc/DZyx0dQ5/find-all-Usuario-Service.png)](https://postimg.cc/hJ6L3m57)
 
@@ -61,9 +69,13 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
   - **URL:`/user/"{id}"`**
   - **Metodo: `GET`**
   - **Descripcion:** Obtiene un usuario determinado segun el id proporcionado en la url
+ 
+    **Controler**
 
     [![get-User-By-Id.png](https://i.postimg.cc/c4kpgNPZ/get-User-By-Id.png)](https://postimg.cc/CzDPX9F6)
- 
+
+    **Service**
+    
     [![find-Usuario-by-id-Service.png](https://i.postimg.cc/Vv0B07J9/find-Usuario-by-id-Service.png)](https://postimg.cc/dZvTzjmD)
 
     [![get-User-By-Id-POSTMAN.png](https://i.postimg.cc/cC4zCDmr/get-User-By-Id-POSTMAN.png)](https://postimg.cc/LYwD03Gp)
@@ -73,7 +85,11 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
   - **Metodo: `DELETE`**
   - **Descripcion:** Elimina un usuario determinado mediante el id obtenido de la url,previamente en la capa service, elimina cada topico asociado a dicho usuario
 
+   **Controler**
+   
    [![delete-User.png](https://i.postimg.cc/KY0BFJR9/delete-User.png)](https://postimg.cc/06Jb0GGm)
+
+   **Service**
 
    [![delete-User-Service.png](https://i.postimg.cc/SRMM64V5/delete-User-Service.png)](https://postimg.cc/JHR089fc)
 
