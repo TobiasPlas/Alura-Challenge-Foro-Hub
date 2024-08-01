@@ -37,6 +37,8 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
       { "nombre":"user" , "mail":"user98@gmail.com" , "password": "123456" }
 
      [![save-Usuario.png](https://i.postimg.cc/KcpdH2fV/save-Usuario.png)](https://postimg.cc/146C8bLc)
+ 
+     [![Save-Usuario-Service.png](https://i.postimg.cc/RCgj7qNN/Save-Usuario-Service.png)](https://postimg.cc/5jF7145V)
 
      [![save-Usuario-POSTMAN.png](https://i.postimg.cc/wvZn351z/save-Usuario-POSTMAN.png)](https://postimg.cc/yghLbZhp)
 
@@ -49,8 +51,10 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
    - **Descripcion:** Retorna una lista en formato json de todos los usuarios registrados en la base de datos
 
       [![getUsers.png](https://i.postimg.cc/4yZ8MWMW/getUsers.png)](https://postimg.cc/VrGB0Wzt)
+  
+      [![find-all-Usuario-Service.png](https://i.postimg.cc/DZyx0dQ5/find-all-Usuario-Service.png)](https://postimg.cc/hJ6L3m57)
 
-     [![Lista-de-usuarios-Postman.png](https://i.postimg.cc/QtZS96Xj/Lista-de-usuarios-Postman.png)](https://postimg.cc/mcV7Kyzn)
+      [![Lista-de-usuarios-Postman.png](https://i.postimg.cc/QtZS96Xj/Lista-de-usuarios-Postman.png)](https://postimg.cc/mcV7Kyzn)
 
 
 - **Obtener un usuario**
@@ -59,6 +63,8 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
   - **Descripcion:** Obtiene un usuario determinado segun el id proporcionado en la url
 
     [![get-User-By-Id.png](https://i.postimg.cc/c4kpgNPZ/get-User-By-Id.png)](https://postimg.cc/CzDPX9F6)
+ 
+    [![find-Usuario-by-id-Service.png](https://i.postimg.cc/Vv0B07J9/find-Usuario-by-id-Service.png)](https://postimg.cc/dZvTzjmD)
 
     [![get-User-By-Id-POSTMAN.png](https://i.postimg.cc/cC4zCDmr/get-User-By-Id-POSTMAN.png)](https://postimg.cc/LYwD03Gp)
 
