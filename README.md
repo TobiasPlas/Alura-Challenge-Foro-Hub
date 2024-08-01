@@ -81,20 +81,31 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
     - **Descripcion:** Registra un nuevo topico
     - **Cuerpo de la Solicitud:**
 
-      {
-    "titulo":"as230fgsdag", 
-    "mensaje":"gjlgsdh120.ask", 
-    "fechaCreacion": "12/7/2024", 
+      { 
+    "titulo":"Desarrollando una api con spring boot", 
+    "mensaje":"Hoy nos vamos a poner a trabajar en el desarrollo de una api rest", 
+    "fechaCreacion": "08/09/1998", 
     "autor": { 
-        "nombre":"TobPlas", 
-        "mail":"Tobplas68@gmail.com", 
-        "password": "$2y$10$Wqo.nOGe3Qcb.gW1uzuFg.NkytXnJwe5a9t.jKp.x.BE5QIF6vPcO" 
+        "nombre":"user", 
+        "mail":"user98@gmail.com", 
+        "password": "123456" 
     }, 
     "status": "Ok", 
-    "curso": "Matematica" 
-}
+    "curso": "Programacion" 
+} 
+
+   [![Save-Topico.png](https://i.postimg.cc/9fMt2NFX/Save-Topico.png)](https://postimg.cc/K16grfMC) 
+
+   [![Save-Topico-POSTMAN.png](https://i.postimg.cc/509cfJQY/Save-Topico-POSTMAN.png)](https://postimg.cc/wtr4kSVg) 
+
+   [![TopicoBD.png](https://i.postimg.cc/rsPzSQ2j/TopicoBD.png)](https://postimg.cc/GTvcRP2T) 
 
 
+ - **Listar topicos**
+    - **URL: `/topico`**
+    - **Metodo: `GET`**
+    - **Descripcion:** Retorna un listado con todos los topicos
+   
 
 
 
