@@ -107,7 +107,7 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
     "titulo":"Desarrollando una api con spring boot", 
     "mensaje":"Hoy nos vamos a poner a trabajar en el desarrollo de una api rest", 
     "fechaCreacion": "08/09/1998", 
-    "autor": { 
+    "autor": {
         "nombre":"user", 
         "mail":"user98@gmail.com", 
         "password": "123456" 
@@ -116,7 +116,13 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
     "curso": "Programacion" 
 } 
 
-   [![Save-Topico.png](https://i.postimg.cc/9fMt2NFX/Save-Topico.png)](https://postimg.cc/K16grfMC) 
+   **Controler**
+
+   [![Save-Topico.png](https://i.postimg.cc/9fMt2NFX/Save-Topico.png)](https://postimg.cc/K16grfMC)
+
+   **Service**
+
+   [![Save-Topico-service.png](https://i.postimg.cc/KYwp4gzM/Save-Topico-service.png)](https://postimg.cc/Y4Nzs0Qr)
 
    [![Save-Topico-POSTMAN.png](https://i.postimg.cc/509cfJQY/Save-Topico-POSTMAN.png)](https://postimg.cc/wtr4kSVg) 
 
@@ -128,9 +134,15 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
     - **Metodo: `GET`**
     - **Descripcion:** Retorna un listado con todos los topicos
    
+   **Controler**
 
+   [![find-all-topico.png](https://i.postimg.cc/CLxCTxMT/find-all-topico.png)](https://postimg.cc/vDCx5M63)
 
+   **Service**
 
+   [![find-all-topico-service.png](https://i.postimg.cc/44Bt5R68/find-all-topico-service.png)](https://postimg.cc/jCnLx9kN)
+
+   [![find-all-topico-postman.png](https://i.postimg.cc/WzwdYKfw/find-all-topico-postman.png)](https://postimg.cc/p5yVp0vm)
 
 
 
