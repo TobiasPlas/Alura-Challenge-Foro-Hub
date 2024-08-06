@@ -23,6 +23,7 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
 - **Flyway-mysql**
 - **MySQL Driver**
 - **Lombok**
+- **Stream**
 
 
 ### Endpoints
@@ -36,7 +37,7 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
    
       { "nombre":"user" , "mail":"user98@gmail.com" , "password": "123456" }
  
-     **Controler**
+     **Controller**
 
      [![save-Usuario.png](https://i.postimg.cc/KcpdH2fV/save-Usuario.png)](https://postimg.cc/146C8bLc)
  
@@ -54,7 +55,7 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
    - **Metodo: `GET`**
    - **Descripcion:** Retorna una lista en formato json de todos los usuarios registrados en la base de datos
 
-      **Controler**
+      **Controller**
       
       [![getUsers.png](https://i.postimg.cc/4yZ8MWMW/getUsers.png)](https://postimg.cc/VrGB0Wzt)
   
@@ -70,7 +71,7 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
   - **Metodo: `GET`**
   - **Descripcion:** Obtiene un usuario determinado segun el id proporcionado en la url
  
-    **Controler**
+    **Controller**
 
     [![get-User-By-Id.png](https://i.postimg.cc/c4kpgNPZ/get-User-By-Id.png)](https://postimg.cc/CzDPX9F6)
 
@@ -85,7 +86,7 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
   - **Metodo: `DELETE`**
   - **Descripcion:** Elimina un usuario determinado mediante el id obtenido de la url,previamente en la capa service, elimina cada topico asociado a dicho usuario
 
-   **Controler**
+   **Controller**
    
    [![delete-User.png](https://i.postimg.cc/KY0BFJR9/delete-User.png)](https://postimg.cc/06Jb0GGm)
 
@@ -116,7 +117,7 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
     "curso": "Programacion" 
 } 
 
-   **Controler**
+   **Controller**
 
    [![Save-Topico.png](https://i.postimg.cc/9fMt2NFX/Save-Topico.png)](https://postimg.cc/K16grfMC)
 
@@ -134,7 +135,7 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
     - **Metodo: `GET`**
     - **Descripcion:** Retorna un listado con todos los topicos
    
-   **Controler**
+   **Controller**
 
    [![find-all-topico.png](https://i.postimg.cc/CLxCTxMT/find-all-topico.png)](https://postimg.cc/vDCx5M63)
 
@@ -145,8 +146,71 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
    [![find-all-topico-postman.png](https://i.postimg.cc/WzwdYKfw/find-all-topico-postman.png)](https://postimg.cc/p5yVp0vm)
 
 
+ - **Listar topicos por curso**
+    - **URL: `/topico/{curso}`**
+    - **Metodo: `GET`**
+    - **Descripcion:** Retorna un listado con todos los topicos del curso especificado
+
+   **Controller**
+
+   [![Find-By-Curso.png](https://i.postimg.cc/g2bp9wPg/Find-By-Curso.png)](https://postimg.cc/gnsQ82jh)
+
+   **Service**
+
+   [![Find-By-Curso-service.png](https://i.postimg.cc/y6JWsSwK/Find-By-Curso-service.png)](https://postimg.cc/Th6TchdN)
+
+   **Repository**
+
+   [![Find-By-Curso-repository.png](https://i.postimg.cc/XqFVF9by/Find-By-Curso-repository.png)](https://postimg.cc/9wm5HRzW)
+
+   [![Find-By-Curso-postman.png](https://i.postimg.cc/Bv64pr33/Find-By-Curso-postman.png)](https://postimg.cc/nX6ycwMS)
 
 
+- **Seleccionar topico por id **
+    - **URL: `/topico/id={id}`**
+    - **Metodo: `GET`**
+    - **Descripcion:** Retorna el topico con el id especificado
+
+   **Controller**
+  
+   [![Find-By-id.png](https://i.postimg.cc/kMx3QJS8/Find-By-id.png)](https://postimg.cc/6T5mwNY5)
+
+  **Service**
+
+   [![Find-By-id-service.png](https://i.postimg.cc/44124mt8/Find-By-id-service.png)](https://postimg.cc/7bfnmPK7)
+
+   [![Find-By-id-postman.png](https://i.postimg.cc/T1PV3YMS/Find-By-id-postman.png)](https://postimg.cc/9RvRx2ft)
 
   
+- **Seleccionar topico por nombre de usuario **
+    - **URL: `/topico/name={nombre}`**
+    - **Metodo: `GET`**
+    - **Descripcion:** Retorna una lista de los topicos de un determinado usuario segun su nombre
+
+      **Controller**
+      
+      [![Find-By-name.png](https://i.postimg.cc/xTJmxZ0K/Find-By-name.png)](https://postimg.cc/56JjjnQ0)
+
+      **Service**
+
+      [![Find-By-name-service.png](https://i.postimg.cc/76hhCChg/Find-By-name-service.png)](https://postimg.cc/dkMwpV81)
+
+      **Repository**
+
+      [![Find-By-name-repository.png](https://i.postimg.cc/YCtWrC6x/Find-By-name-repository.png)](https://postimg.cc/N5PMbYPy)
+
+      [![Find-By-name-postman.png](https://i.postimg.cc/DwWKbqPf/Find-By-name-postman.png)](https://postimg.cc/TKXsz5sB)
+
+
+
+  - **Editar un topico **
+    - **URL: `/topico/{id}`**
+    - **Metodo: `PUT`**
+    - **Descripcion:** Edita un topico determinado especificado mediante el id, y pasando los datos nuevos en el cuerpo de la solicitud. Los campos que se pueden editar son: Mensaje , Titulo y Curso
+    - **Cuerpo de la Solicitud:**
+      { "titulo" : "Conociendo los elementos"  , "mensaje" : "Hoy vamos a conocer los elementos de la tabla periodica" }
+      
+    **Controller**
+
+    
 
