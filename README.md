@@ -44,7 +44,9 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
       **Service**
 
      [![Save-Usuario-Service.png](https://i.postimg.cc/RCgj7qNN/Save-Usuario-Service.png)](https://postimg.cc/5jF7145V)
-
+ 
+      **Postman**
+     
      [![save-Usuario-POSTMAN.png](https://i.postimg.cc/wvZn351z/save-Usuario-POSTMAN.png)](https://postimg.cc/yghLbZhp)
 
      [![Usuarios-My-SQL.png](https://i.postimg.cc/8C3ZbpNB/Usuarios-My-SQL.png)](https://postimg.cc/mcY3LGct)
@@ -62,6 +64,8 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
       **Service**
   
       [![find-all-Usuario-Service.png](https://i.postimg.cc/DZyx0dQ5/find-all-Usuario-Service.png)](https://postimg.cc/hJ6L3m57)
+  
+      **Postman**
 
       [![Lista-de-usuarios-Postman.png](https://i.postimg.cc/QtZS96Xj/Lista-de-usuarios-Postman.png)](https://postimg.cc/mcV7Kyzn)
 
@@ -78,6 +82,8 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
     **Service**
     
     [![find-Usuario-by-id-Service.png](https://i.postimg.cc/Vv0B07J9/find-Usuario-by-id-Service.png)](https://postimg.cc/dZvTzjmD)
+ 
+    **Postman**
 
     [![get-User-By-Id-POSTMAN.png](https://i.postimg.cc/cC4zCDmr/get-User-By-Id-POSTMAN.png)](https://postimg.cc/LYwD03Gp)
 
@@ -93,6 +99,8 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
    **Service**
 
    [![delete-User-Service.png](https://i.postimg.cc/SRMM64V5/delete-User-Service.png)](https://postimg.cc/JHR089fc)
+
+   **Postman**
 
    [![delete-User-Querry.png](https://i.postimg.cc/t4HcwtZZ/delete-User-Querry.png)](https://postimg.cc/D8B5bGcn)
 
@@ -125,6 +133,8 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
 
    [![Save-Topico-service.png](https://i.postimg.cc/KYwp4gzM/Save-Topico-service.png)](https://postimg.cc/Y4Nzs0Qr)
 
+   **Postman**
+
    [![Save-Topico-POSTMAN.png](https://i.postimg.cc/509cfJQY/Save-Topico-POSTMAN.png)](https://postimg.cc/wtr4kSVg) 
 
    [![TopicoBD.png](https://i.postimg.cc/rsPzSQ2j/TopicoBD.png)](https://postimg.cc/GTvcRP2T) 
@@ -142,6 +152,8 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
    **Service**
 
    [![find-all-topico-service.png](https://i.postimg.cc/44Bt5R68/find-all-topico-service.png)](https://postimg.cc/jCnLx9kN)
+
+   **Postman**
 
    [![find-all-topico-postman.png](https://i.postimg.cc/WzwdYKfw/find-all-topico-postman.png)](https://postimg.cc/p5yVp0vm)
 
@@ -163,6 +175,8 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
 
    [![Find-By-Curso-repository.png](https://i.postimg.cc/XqFVF9by/Find-By-Curso-repository.png)](https://postimg.cc/9wm5HRzW)
 
+   **Postman**
+
    [![Find-By-Curso-postman.png](https://i.postimg.cc/Bv64pr33/Find-By-Curso-postman.png)](https://postimg.cc/nX6ycwMS)
 
 
@@ -178,6 +192,8 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
   **Service**
 
    [![Find-By-id-service.png](https://i.postimg.cc/44124mt8/Find-By-id-service.png)](https://postimg.cc/7bfnmPK7)
+
+  **Postman**
 
    [![Find-By-id-postman.png](https://i.postimg.cc/T1PV3YMS/Find-By-id-postman.png)](https://postimg.cc/9RvRx2ft)
 
@@ -198,6 +214,8 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
       **Repository**
 
       [![Find-By-name-repository.png](https://i.postimg.cc/YCtWrC6x/Find-By-name-repository.png)](https://postimg.cc/N5PMbYPy)
+ 
+      **Postman**
 
       [![Find-By-name-postman.png](https://i.postimg.cc/DwWKbqPf/Find-By-name-postman.png)](https://postimg.cc/TKXsz5sB)
 
@@ -218,6 +236,23 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
 
    [![editar-topico-service.png](https://i.postimg.cc/26kVkpzq/editar-topico-service.png)](https://postimg.cc/jW1scFnK)
 
-  
-    
+    **Postman**
 
+   [![editar-topico-postaman.png](https://i.postimg.cc/TwxCTJN7/editar-topico-postaman.png)](https://postimg.cc/hJC9rTBT)
+
+   [![editar-topico-DB.png](https://i.postimg.cc/L56D16pj/editar-topico-DB.png)](https://postimg.cc/5YT8cJjt)
+
+
+   - **Eliminar un topico **
+    - **URL: `/topico/{id}`**
+    - **Metodo: `DELETE`**
+    - **Descripcion:** Elimina el topico del id proporcionado
+
+      **Controller**
+      
+      [![delete-topico.png](https://i.postimg.cc/hPzH2g6K/delete-topico.png)](https://postimg.cc/QHD4tLjz)
+
+      **Service**
+
+      [![delete-topico-service.png](https://i.postimg.cc/2jGcRxVc/delete-topico-service.png)](https://postimg.cc/Z09F6pPp)
+      
