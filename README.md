@@ -212,5 +212,12 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
       
     **Controller**
 
+   [![editar-topico.png](https://i.postimg.cc/rsrFffhF/editar-topico.png)](https://postimg.cc/m1TsDyf0)
+
+    **Service**
+
+   [![editar-topico-service.png](https://i.postimg.cc/26kVkpzq/editar-topico-service.png)](https://postimg.cc/jW1scFnK)
+
+  
     
 
