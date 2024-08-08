@@ -243,7 +243,7 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
    [![editar-topico-DB.png](https://i.postimg.cc/L56D16pj/editar-topico-DB.png)](https://postimg.cc/5YT8cJjt)
 
 
-   - **Eliminar un topico **
+ - **Eliminar un topico **
     - **URL: `/topico/{id}`**
     - **Metodo: `DELETE`**
     - **Descripcion:** Elimina el topico del id proporcionado
@@ -255,4 +255,10 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
       **Service**
 
       [![delete-topico-service.png](https://i.postimg.cc/2jGcRxVc/delete-topico-service.png)](https://postimg.cc/Z09F6pPp)
+
+      **Postman**
+
+      [![delete-topico-postman.png](https://i.postimg.cc/NFjxfW5N/delete-topico-postman.png)](https://postimg.cc/zb4hx2wW)
+
+      [![delete-topico-DB.png](https://i.postimg.cc/3J6ZYf7B/delete-topico-DB.png)](https://postimg.cc/ppfjBZmh)
       
