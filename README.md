@@ -261,4 +261,31 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
       [![delete-topico-postman.png](https://i.postimg.cc/NFjxfW5N/delete-topico-postman.png)](https://postimg.cc/zb4hx2wW)
 
       [![delete-topico-DB.png](https://i.postimg.cc/3J6ZYf7B/delete-topico-DB.png)](https://postimg.cc/ppfjBZmh)
+
+
+
+      ### Validaciones
+
+
+      - **Al crear un usuario**
+        -  **Nombre:**No puede ser nulo o estar vacio
+        -  **Mail:**No puede ser nulo o estar vacio
+        -  **Contrase√±a:**No puede ser nulo o estar vacio
+       
+       [![Usuario-Valid.png](https://i.postimg.cc/JzCCcpNh/Usuario-Valid.png)](https://postimg.cc/nC2WnYw8)
       
+       
+
+     - **Al crear un topico**
+       - **Titulo:**No puede ser nulo o estar vacio
+       - **Mensaje:**No puede ser nulo o estar vacio
+       - **FechaCreacion:**No puede ser nulo o estar vacio
+       - **Autor:**No puede ser nulo o estar vacio,a su vez validamos que el autor proporcionado su id no sea nulo o vacio
+       - **Status:**No puede ser nulo o estar vacio
+       - **Curso:**No puede ser nulo o estar vacio
+        
+
+      [![Topico-Valid.png](https://i.postimg.cc/6pVJHCcf/Topico-Valid.png)](https://postimg.cc/4Y3Sy7rY)
+
+      [![Topico-user-Valid.png](https://i.postimg.cc/C1QWZ7MS/Topico-user-Valid.png)](https://postimg.cc/YGQXZ1ms)
+   
