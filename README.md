@@ -288,4 +288,9 @@ Esta API proporciona las funcionalidades necesarias para gestionar un foro en l√
       [![Topico-Valid.png](https://i.postimg.cc/6pVJHCcf/Topico-Valid.png)](https://postimg.cc/4Y3Sy7rY)
 
       [![Topico-user-Valid.png](https://i.postimg.cc/C1QWZ7MS/Topico-user-Valid.png)](https://postimg.cc/YGQXZ1ms)
+
+
+   ### Manejo de errores
+
+   [![Errores.png](https://i.postimg.cc/02XWx0zp/Errores.png)](https://postimg.cc/gnRqHRqJ)
    
